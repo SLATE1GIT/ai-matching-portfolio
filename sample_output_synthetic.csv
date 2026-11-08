@@ -1,0 +1,21 @@
+id_a,id_b,name_raw_a,name_raw_b,biz_name_score,address_score,phone_match,city_match,composite_score,tier,tier_reason
+a003,b003,Pizza Hut Austin,Pizza Hut,0.9125,1,1,1,1,DEFINITE,Name + address + phone all strongly match
+a007,b007,The Home Depot,Home Depot,1,1,1,1,1,DEFINITE,Name + address + phone all strongly match
+a010,b010,Target Store,Target,1,1,1,1,1,DEFINITE,Name + address + phone all strongly match
+a017,b017,Nordstrom,Nordstrom Inc,1,1,1,1,1,DEFINITE,Name + address + phone all strongly match
+a018,b018,Trader Joe's,Trader Joes,0.9833,1,1,1,0.995,DEFINITE,Name + address + phone all strongly match
+a001,b001,McDonald's Restaurant,McDonalds,0.98,1,1,1,0.994,DEFINITE,Name + address + phone all strongly match
+a019,b019,Applebee's Grill & Bar,Applebees Bar and Grill,0.98,1,1,1,0.994,DEFINITE,Name + address + phone all strongly match
+a006,b006,Walmart Supercenter,Wal-Mart Super Center,0.9778,1,1,1,0.9933,DEFINITE,Name + address + phone all strongly match
+a014,b014,Dunkin Donuts #1234,Dunkin Donuts,0.9368,1,1,1,0.9811,DEFINITE,Name + address + phone all strongly match
+a012,b012,Walgreens Drug Store,Walgreens,0.9286,1,1,1,0.9786,DEFINITE,Name + address + phone all strongly match
+a002,b002,Starbucks Coffee,Starbucks Corp,0.9125,1,1,1,0.9738,DEFINITE,Name + address + phone all strongly match
+a013,b013,Chipotle Mexican Grill,Chipotle,0.9,1,1,1,0.97,DEFINITE,Name + address + phone all strongly match
+a004,b004,Coffee Shop at Hilton,Coffee Shop,0.875,1,1,1,0.9625,DEFINITE,Phone + address confirmed; name close enough
+a008,b008,Subway Sandwiches,SUBWAY,0.8706,1,1,1,0.9612,DEFINITE,Phone + address confirmed; name close enough
+a020,b020,Office Depot,Office Max,0.8567,1,1,1,0.957,DEFINITE,Phone + address confirmed; name close enough
+a011,b011,CVS Pharmacy,CVS,0.825,1,1,1,0.9475,DEFINITE,Phone + address confirmed; name close enough
+a015,b015,KFC Fried Chicken,Kentucky Fried Chicken,0.7787,1,1,1,0.9336,DEFINITE,"Address confirmed with shared name signal — same business, name variant or abbreviation"
+a009,b009,Best Buy Electronics,Best Buy,0.88,1,null,1,0.864,DEFINITE,"Address confirmed with shared name signal — same business, name variant or abbreviation"
+a016,b016,Burger King,BK Burger,0.6957,1,null,1,0.8087,DEFINITE,"Address confirmed with shared name signal — same business, name variant or abbreviation"
+a005,b005,Joe's Garage,Smith Auto Repair,0.5621,1,1,1,0.8686,BUSINESS_CHANGE,Same address and phone but names too different — likely new business at this location
