@@ -1,4 +1,4 @@
-# AI-assisted business matching: methods and selected excerpts
+# AI-assisted B2B business matching with Python and SQL: methods and selected excerpts
 
 ## Why this example exists
 A concrete portfolio example of **using AI alongside SQL and business-matching skills**. I defined the initial prompt/specification and reviewed and refined the code for matching rules after initial build. AI generated most of the code and the synthetic sample data. This small collection presents selected code and actual synthetic output—not a full implementation, product launch, trained machine-learning model or validated matching service.
